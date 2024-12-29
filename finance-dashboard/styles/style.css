@@ -23,20 +23,27 @@ form {
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    width: 98%;
 }
 
 form label {
     display: block;
     margin-top: 10px;
+    width: 98%;
 }
 
 form input,
 form select,
 form button {
-    width: 100%;
+    width: 98%;
     margin-top: 5px;
     padding: 10px;
     font-size: 16px;
+}
+
+form select {
+    width: 101%;
+    padding: 10px 0;
 }
 
 form button {
@@ -44,10 +51,12 @@ form button {
     color: #fff;
     border: none;
     cursor: pointer;
+    width: 101%;
 }
 
 form button:hover {
     background-color: #008ba3;
+    width: 101%;
 }
 
 #summary {
